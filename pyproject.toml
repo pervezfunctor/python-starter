@@ -1,23 +1,16 @@
 [project]
-name = "python-starter"
-version = "0.0.1"
-description = "starter project for modern python projects"
+name = ""
+version = ""
+description = ""
 authors = [
     {name = "Pervez Iqbal", email = "pervezfunctor@gmail.com"},
 ]
+dependencies = []
+requires-python = ">=3.9"
 license = {text = "MIT"}
+
 [project.urls]
 homepage = ""
-
-requires-python = ">=3.9"
-
-dependencies = [
-    "pydantic>=1.9.0a2",
-    "fastapi>=0.70.1",
-    "starlette>=0.16.0",
-]
-
-[project.optional-dependencies]
 
 [tool.pdm.dev-dependencies]
 dev = [
