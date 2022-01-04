@@ -5,8 +5,8 @@ description = ""
 authors = [
     {name = "Pervez Iqbal", email = "pervezfunctor@gmail.com"},
 ]
-dependencies = []
-requires-python = ">=3.9"
+
+requires-python = ">=3.10"
 license = {text = "MIT"}
 
 [project.urls]
@@ -33,7 +33,7 @@ build-backend = "pdm.pep517.api"
 test = "pdm run pytest tests"
 
 [tool.mypy]
-python_version = "3.9"
+python_version = "3.10"
 plugins = [
     "pydantic.mypy"
 ]
