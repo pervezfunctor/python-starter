@@ -1,7 +1,7 @@
 [project]
-name = ""
-version = ""
-description = ""
+name = "python-starter"
+version = "0.0.1"
+description = "Modern python project template"
 authors = [
     {name = "Pervez Iqbal", email = "pervezfunctor@gmail.com"},
 ]
@@ -27,14 +27,8 @@ homepage = ""
 [tool.pdm.dev-dependencies]
 dev = [
     "pytest>=6.2.5",
-    "black>=21.12b0",
-    "flake8>=4.0.1",
     "pyright>=0.0.13",
     "mypy>=0.930",
-    "jupyterlab>=3.2.5",
-    "voila>=0.3.0",
-    "notebook>=6.4.6",
-    "ipykernel>=6.6.0",
 ]
 
 [build-system]
